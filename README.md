@@ -1,9 +1,15 @@
 # ghtmpl
 A command line tool which generates GitHub templates.
 
+## Install
+```
+$ git clone https://github.com/dais39/ghtmpl.git
+
+$ ./gradlew installDist
+```
 ## Usage
 ```
-$ ghtmpl -t bug
+$ ./build/install/ghtmpl/bin/ghtmplghtmpl -t bug
 
 **Describe the bug**
 A clear and concise description of what the bug is.
